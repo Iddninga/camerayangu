@@ -1,0 +1,42 @@
+/* Existing styles */
+body {
+    /* ... */
+}
+
+.container {
+    /* ... */
+}
+
+video {
+    /* ... */
+}
+
+button {
+    /* ... */
+}
+
+/* Additional styles for media gallery */
+#mediaGallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#mediaGallery img {
+    max-width: 150px;
+    border: 2px solid #333;
+    border-radius: 4px;
+}
+
+/* Additional styles for controls */
+.controls {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#filterSelect {
+    padding: 5px;
+}
